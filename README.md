@@ -19,7 +19,7 @@ The markup automatically reflects these values on load, and the copy-to-clipboar
 ## Deploying
 
 1. Commit changes to the `main` branch.
-2. Push to GitHub.
+2. Push to GitHub.<<<<<<< codex/set-up-stimothy-pumps-website-bcsxao
 3. Ensure GitHub Pages is configured to deploy from the `main` branch with the `/` (root) folder.
 4. GitHub Pages will rebuild the site and serve it at https://veilcore.us (or your configured Pages domain).
 
