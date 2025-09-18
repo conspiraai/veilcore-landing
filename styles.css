@@ -314,10 +314,14 @@ main {
   display: block;
   margin-inline: auto;
   max-width: min(48rem, 85vw);
-  position: relative;
+
   background: radial-gradient(circle at center, rgba(138, 255, 108, 0.2) 0%, transparent 65%);
   border-radius: 50%;
   padding: clamp(1rem, 4vw, 2rem);
+  position: relative;
+  justify-self: center;
+}
+
 }
 
 .hero-art::after {
@@ -330,6 +334,7 @@ main {
   mix-blend-mode: screen;
   z-index: 1;
 }
+
 
 .hero-img {
   display: block;
